@@ -1,9 +1,9 @@
-print "Hi there"
+# Hello world example
 
-for c in "banana":
-    if c < 't':
-        print "Hi there"
-    elif c > 'u':
-        print "Hi hi there"
-    else:
-        print "Bye"
+def main():
+    name = input("What is your name ?")
+    print(name)
+
+
+if __name__ == "__main__":
+    main()
