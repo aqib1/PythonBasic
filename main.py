@@ -38,15 +38,17 @@ def multi_add(*args):
 
 
 def main():
-    if multi_add(11, 2, 3, 4) == 10:
-        print("ok")
-    elif multi_add(11, 12) == 23:
-        print("Equal")
-    else:
-        print("Not OK")
-    print(power(r=2, val=3))
-    print(mul(22, 2))
-    print(add(1))
+    condition = "This is ok for me" if(multi_add(1, 2, 3, 4, 5) == 11) else "Its not ok form me"
+    print(condition)
+    # if multi_add(11, 2, 3, 4) == 10:
+    #     print("ok")
+    # elif multi_add(11, 12) == 23:
+    #     print("Equal")
+    # else:
+    #     print("Not OK")
+    # print(power(r=2, val=3))
+    # print(mul(22, 2))
+    # print(add(1))
     # print(setfunction is setfunction)
     # print(setfunction() is None)
     # setfunction()
