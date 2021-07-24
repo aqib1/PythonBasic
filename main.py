@@ -1,4 +1,5 @@
 # Hello world example
+from Math import Math
 
 f = "hi there"
 
@@ -37,11 +38,18 @@ def multi_add(*args):
     return result
 
 
+
+
+
 def main():
-    days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
-    for i, day in enumerate(days):
-        if day == "sunday":
-            print("She took weed everyday ", i, day)
+    math = Math()
+    print(math.add(1, 2, 3))
+    print(math.mul(1, 2, 4))
+
+    # days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
+    # for i, day in enumerate(days):
+    #     if day == "sunday":
+    #         print("She took weed everyday ", i, day)
     # loops
     # x = 1
     # while x <= 10:
