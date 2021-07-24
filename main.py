@@ -14,7 +14,11 @@ def setfunction():
 def main():
     setfunction()
     print(f)
-    del f
+    # del f
+    temp = -2
+    print(temp)
+    # del temp
+    print(temp)
     # print(f) f is deleted
     # name = input("What is your name ?")
     # print(name)
