@@ -16,7 +16,7 @@ def add(val1, val2=0):
 
 
 def mul(va1, val2=1):
-    return va1*val2
+    return va1 * val2
 
 
 def power(val, r=1):
@@ -38,8 +38,21 @@ def multi_add(*args):
 
 
 def main():
-    condition = "This is ok for me" if(multi_add(1, 2, 3, 4, 5) == 11) else "Its not ok form me"
-    print(condition)
+    days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
+    for day in days:
+        if day == "sunday":
+            print("She took weed everyday")
+    # loops
+    # x = 1
+    # while x <= 10:
+    #     print(x)
+    #     x += 1
+
+    # for i in range(5, 10):
+    #     print(i)
+
+    # condition = "This is ok for me" if(multi_add(1, 2, 3, 4, 5) == 11) else "Its not ok form me"
+    # print(condition)
     # if multi_add(11, 2, 3, 4) == 10:
     #     print("ok")
     # elif multi_add(11, 12) == 23:
