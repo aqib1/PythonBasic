@@ -19,7 +19,32 @@ def mul(va1, val2=1):
     return va1*val2
 
 
+def power(val, r=1):
+    result = 1
+
+    for i in range(r):
+        result *= val
+
+    return result
+
+
+def multi_add(*args):
+    result = 0
+
+    for i in args:
+        result += i
+
+    return result
+
+
 def main():
+    if multi_add(11, 2, 3, 4) == 10:
+        print("ok")
+    elif multi_add(11, 12) == 23:
+        print("Equal")
+    else:
+        print("Not OK")
+    print(power(r=2, val=3))
     print(mul(22, 2))
     print(add(1))
     # print(setfunction is setfunction)
