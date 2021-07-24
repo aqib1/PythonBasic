@@ -39,9 +39,9 @@ def multi_add(*args):
 
 def main():
     days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
-    for day in days:
+    for i, day in enumerate(days):
         if day == "sunday":
-            print("She took weed everyday")
+            print("She took weed everyday ", i, day)
     # loops
     # x = 1
     # while x <= 10:
